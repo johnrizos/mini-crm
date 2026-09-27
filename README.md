@@ -34,7 +34,7 @@ Built with **Laravel 13**, **Inertia 3**, **Vue 3 + TypeScript** and **Tailwind 
 
 ## Running it
 
-Requires PHP 8.3+, Composer and Node 22.
+Requires PHP 8.4+, Composer and Node 22.
 
 ```bash
 composer setup          # install, .env, key, migrate, build
