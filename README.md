@@ -14,8 +14,8 @@ Built with **Laravel 13**, **Inertia 3**, **Vue 3 + TypeScript** and **Tailwind 
 - **CSV import** as a queued job. Rows with problems are reported by line number and skipped, never failing the whole file. It copes with what real exports look like: a UTF-8 BOM, semicolon separators (Excel in most of Europe), and headers like "First Name", "Surname" or "E-mail". Companies are matched by name, case-insensitively, or created.
 - **Dashboard.** Open pipeline, revenue won this month, win rate over 90 days, and deals due in the next two weeks.
 
-| Pipeline | Contact |
-| --- | --- |
+| Pipeline                                                                                  | Contact                                                                     |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | ![Kanban board with deals in New, Qualified, Proposal and Negotiation](docs/pipeline.png) | ![Contact page with details, deals and activity timeline](docs/contact.png) |
 
 ## Decisions worth pointing out
